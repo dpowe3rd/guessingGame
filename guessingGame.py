@@ -24,12 +24,12 @@ def guess(number):  # Function that takes a random number as a parameter
 
         if int(spam) == int(number) and count == 1:
             # The line above compares user input to random number and if the number of times the loop was restarted
-            print('You guessed my number correctly, in only ' + str(count) + ' time! Good job!')
+            print('You guessed my number correctly, in only ' + str(count) + ' try! Good job!')
             break  # Stops the loop
 
         if int(spam) == int(number) and count > 1:
             # The line above compares user input to random number and if the number of times the loop was restarted
-            print('You guessed my number correctly, in only ' + str(count) + ' times! Good job!')
+            print('You guessed my number correctly, in only ' + str(count) + ' tries! Good job!')
             break  # Stops the loop
 
 
